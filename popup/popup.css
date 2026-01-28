@@ -1,0 +1,23 @@
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+    height: 30px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}

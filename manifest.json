@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Looper Extension",
+  "version": "1.0",
+  "description": "Browser extension that loops through saved tabs.",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+    }
+  },
+  "permissions": ["storage", "tabs"],
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "commands": {
+    "cycle-tabs": {
+      "suggested_key": {
+        "default": "Alt+Q"
+      },
+      "description": "Cycle through saved tabs"
+    }
+  }
+}
