@@ -12,12 +12,45 @@ h1 {
 .button {
     overflow: hidden;
     white-space: nowrap;
-    width: 100px;
+    min-width: 100px;
     height: 30px;
+    border-radius: 5px;
 }
 li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+.button.add-button {
+    background-color: #4CAF50;
+}
+.button.rem-button {
+    background-color: #f44336a7;
+}
+.button.rem-button-small {
+    background-color: #f44336a7;
+    min-width: 70px;
+    height: 25px;
+    font-size: 12px;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.tabElement{
+    border: 2px solid #000;
+    padding: 2px;
+    border-radius: 5px;
+}
+.current-tab{
+    box-shadow: #000 0px 0px 15px;
+    font-weight: bold;
+    border: 2px solid #00ff08;
+}
+.order-button-small {
+    background-color: #008CBA;
+    min-width: 50px;
+    height: 25px;
+    font-size: 12px;
 }
