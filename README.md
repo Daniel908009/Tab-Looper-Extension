@@ -11,6 +11,7 @@ Tab Looper is a Chromium browser extension that lets you create a custom list of
 - Highlights the active tab inside the popup (green outline)
 - Works across multiple windows
 - Reopens a new tab with the same URL if the original one was closed
+- Changing order of the saved tabs
 
 ## Installation
 1. Clone or download this repository
@@ -31,3 +32,6 @@ You can view or change the extension keyboard shortcuts in `chrome://extensions/
 
 You can manage the list at any time using the controls inside the popup or via shortcuts. <br>
 Note: On some websites/tabs the notification doesn't show up. This is because some tabs don't allow content.js (typically it's new tabs or browser tabs like `/extensions`).
+
+## Screenshot
+<img width="498" height="733" alt="image" src="https://github.com/user-attachments/assets/af2ff058-ef3a-45f3-b6b1-16ddba119ac4" />
