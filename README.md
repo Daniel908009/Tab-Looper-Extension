@@ -29,5 +29,5 @@ You can view or change the extension keyboard shortcuts in `chrome://extensions/
 2. Add tabs using either the button inside the extension popup or keyboard shortcut
 3. Use the assigned keyboard shortcut to start cycling through the saved tabs
 
-You can manage the list at any time using the controls inside the popup or via shortcuts.
+You can manage the list at any time using the controls inside the popup or via shortcuts. <br>
 Note: On some websites/tabs the notification doesn't show up. This is because some tabs don't allow content.js (typically it's new tabs or browser tabs like `/extensions`).
